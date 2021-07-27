@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network Feed</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h1>Network</h1>
+    </nav>
+    <main>
+        <h2>Your Feed</h2>
+        <div class="container flexed-top">
+            <div class="profile">
+                <img src="./assets/user-circle.png" alt="User Avatar Image">
+                <a href="#">Add an avatar</a>
+                <h3>James Doe</h3>
+            </div>
+            <div class="feed">
+                <div class="example-box">
+                    <div class="box-top flexed">
+                        <p>Neil M</p>
+                        <div class="like-section flexed">
+                            <p id="like-counter1">9 like(s)</p>
+                            <button onclick="addLike1()">Like</button>
+                        </div>
+                    </div>
+                    <p>I just set up this new discord bot, let me know what you al think. <a href="#">link</a></p>
+                </div>
+                <div class="example-box">
+                    <div class="box-top flexed">
+                        <p>Nichole K</p>
+                        <div class="like-section flexed">
+                            <p id="like-counter2">12 like(s)</p>
+                            <button onclick="addLike2()">Like</button>
+                        </div>
+                    </div>
+                    <p>Jus finished my <a href="#">next comic</a>, check it out.</p>
+                </div>
+                <div class="example-box">
+                    <div class="box-top flexed">
+                        <p>Jim R</p>
+                        <div class="like-section flexed">
+                            <p id="like-counter3">9 like(s)</p>
+                            <button onclick="addLike3()">Like</button>
+                        </div>
+                    </div>
+                    <p>I can't stop lsitening to the <a href="#">new album</a>. Who else is liking it?</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
